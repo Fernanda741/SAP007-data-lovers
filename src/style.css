@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 * {
   padding: 0;
@@ -7,24 +6,25 @@
 }
 
  body {
-  background-color: #263E5D;
   font-family: 'Fira Code', monospace;
   font-weight:500;
   overflow-x: hidden;
+  background-color: #263E5D;
 }
 
-.main_pag1 {
+.main-pag1 {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: #263E5D;
+
 }
 
-.button-pag1 {
+.portal-button {
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: space-between;
-   margin-left: 100px;
+   justify-content: space-evenly;
+   margin-left: 7%;
 }
 
 .introduction{
@@ -42,45 +42,73 @@
   font-size: 20px;
 
 }
+.logo{
+  width: 50vw;
+}
 
-.button-pag1 button {
+.portal-image{
+  width: 20vw;
+  height: 36vh;
+}
+
+.portal-button button {
   margin-bottom: 25px;
-  padding: 15px;
+  padding: 5%;
   border-radius: 24px;
   color: #263E5D;
   font-size: 20px;
   font-weight: 700;
   font-family:'Fira Code', monospace;
   cursor: pointer;
-  width: 200px;
-  background: rgb(117,250,242);
-  background: linear-gradient(0deg, rgba(117,250,242,1) 0%, rgba(38,62,93,1) 100%);
-  border: none;
-}
-
-@media screen and (max-width: 1349px){
-  .button-pag1 button {
-    margin-top: 30px;
-  }
+  width: 15vw;
+  background: linear-gradient(0deg, #75faf2 0%, #263e5d 100%);
+  border: solid #0ff51b 2px;
 }
 
 button:hover{
   background: rgb(38,62,93);
-  background: linear-gradient(0deg, rgba(38,62,93,1) 0%, rgba(117,250,242,1) 100%);
+  background: linear-gradient(0deg, #263e5d 0%, #75faf2 100%);
 }
 
-footer{
+.authors{
   width: 100%;
+  height: 4vh;
   text-align: center;
   color: #A0C0C2;
 }
 
-.bg-portal{
-  width: 300px;
-  position: absolute;
-  margin-top: 250px;
+@media (min-width:769px) and (max-width:1279px) {
+
 }
 
-.logo{
-  width: 600px;
+@media (min-width: 481px) and ( max-width: 768px) {
+
+}
+
+@media ( max-width: 480px) {
+
+  .body{
+    background-color: #263E5D;
+  }
+  .logo{
+    width: 90%;
+  }
+  .portal-image{
+    display: none;
+      }
+
+  .portal-button button{
+    width:100%;
+    height: 100%;
+  }
+  .authors{
+    display: none;
+  }
+  .introduction{
+    display: none;
+  }
+.main-pag1{
+  width:100%;
+  height: 100%;
+}
 }

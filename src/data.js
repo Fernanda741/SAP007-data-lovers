@@ -6,7 +6,6 @@ export const descAlphabeth = (data) => data.sort((a, b) =>
 
 
 export const statusFilter = (allCharacters, statusOption) => {
-  //console.log (allCharacters, statusOption);
   return allCharacters.filter(character => character.status === statusOption)
 };
 

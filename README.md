@@ -24,7 +24,7 @@ As informações usadas são da fonte: https://rickandmortyapi.com/
 
 ### Planejamento
 
-Para a realização do projeto, tomamos como referêcia o período de quatro semanas e ultilizamos metodologia ágil para nos planejar, a ferramenta ultilizada foi o Trello.
+Para a realização do projeto, tomamos como referêcia o período de quatro semanas e ultilizamos da metodologia ágil para nos planejar. A ferramenta ultilizada para esse intuito foi o Trello.
 
 (inserir imagem do nosso board + no final no projeto)
 
@@ -47,20 +47,17 @@ Traçando o perfil de usuário, chegamos a algumas conclusões:
 
 ### História de Usuário
 
-História 1: "Como fã da série Rick and Morty, sei que muitos personagens interessantes aparecem em só um episódio e eu gostaria de saber o nome e planeta/dimensão de origem deles."
+História 1: "Como fã da série Rick and Morty, sei que muitos personagens interessantes aparecem em só um episódio e eu gostaria de saber o nome e espécie deles."
 
 Definição de pronto 1: Cards que contém fotos e nome com boa vizualização, para que o usuário possa identificar pela imagem o personagem que quer saber mais informações, tal como local de origem.
 
+História 2:"Eu, usuária, gostaria de poder pesquisar um personagem pelo nome para saber mais informações sobre ele."
 
-História 2: "Como usuário, quero saber quantidade de personagens que se encaixam em cada espécie."
+Definição de pronto 2: Input ao lado dos filtros, dando a escolha da usuária buscar um personagem por nome.
 
-Definição de pronto 2: Ao aplicar o filtro de espécie, o usuário pode ver na página html uma mensagem printada dizendo quantos personagens se encaixam na categoria escolhida.
+História 3: "Como usuário, quero saber quantidade de personagens que se encaixam em cada categoria."
 
-
-História 3:"Eu, usuária, gostaria de poder pesquisar um personagem pelo nome para saber mais informações sobre ele."
-
-Definição de pronto 3: Input ao lado dos filtros, dando a escolha da usuária de buscar um personagem por nome.
-
+Definição de pronto 3: Ao aplicar o filtro de cada categoria escolhida, o usuário pode ver na página html uma mensagem printada dizendo a porcentagem de personagens que se encaixam na categoria.
 
 
 ## 3. Protótipos de Layout
@@ -69,7 +66,7 @@ Para este projeto, tínhamos que fazer primeiro um protótipo de baixa fidelidad
 
 (inserir protótipos de baixa fidelidade)
 
-Ultilizamos o Canva para fazer o protótipo de alta fidelidade, que deve demonstrar o máximo potencial de interface que gostaríamos de criar, por mais que não consigamos seguir a risca(ou não tenhamos tempo). Para isso, buscamos por planos de fundo do Rick and Morty e usamos a paleta de cores gerada no próprio Canva para fazer os deltalhes do layout.
+Ultilizamos o Canva para fazer o protótipo de alta fidelidade, que deve demonstrar o máximo potencial de interface que gostaríamos de criar, por mais que não consigamos seguir a risca(ou não tenhamos tempo). Primeiramente, buscamos por imagens de fundo com temas do Rick and Morty e paletas de cores que se mostram presentes durante a série.
 
 Criamos algumas opções de layouts ideais e o escolhido foi o que deixou a marca visual mais Rick and Morty possível.
 
@@ -81,13 +78,14 @@ Layout escolhido:
 
 ## 4. Aprendizado
 
-O projeto Data Lovers tem como essência a manipulação de objetos e arrays, de como trazer dados para a tela do usuário. Também aprendemos como criar branchs(pull request e merge), commitar de forma padrão, a importância de traçar um perfil e história de usuário, além de definições de pronto.
+O projeto Data Lovers tem como essência a manipulação de objetos e arrays, de como trazer para a tela do usuário informações de um banco de dados. Além disso, aprendemos como trabalhar com branchs (pull request, merge, atualizar main), commitar de forma padrão, a importância de traçar um perfil e história de usuário, também suas definições de pronto.
 
 ## 5. Ferramentas Ultilizadas
 
 [Código]
--Git & Github- Controle de versão, criação de branchs, commits e deploy final no Github Pages.
--Vscode- editor de código.
+-Git & Github: Controle de versão, criação de branchs, commits e deploy final no Github Pages.
+-Vscode: editor de código.
+-Jest: biblioteca de testes do JavaScript
 
 [Comunicação]
 -Zoom.
@@ -103,6 +101,5 @@ O projeto Data Lovers tem como essência a manipulação de objetos e arrays, de
 -JavaScript(puro).
 -HTML5.
 -CSS3.
--Node.js.
 
 ### Projeto desenvolvido por Fernanda Leandra e Isabela Gregoraci- SAP007 Laboratória 2022
