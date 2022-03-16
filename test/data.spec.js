@@ -37,8 +37,8 @@ describe('ascAlphabet', () => {
 
   it('ordenar `nomes de A-Z`', () => {
     const ascendentOrder = ascAlphabeth([{ "name": "Pickle Rick" },
-    { "name": "Tiny Rick" }, { "name": "Dr. Wong" }, {"name": "Baby Legs",}], "A-Z")
-    expect(ascendentOrder).toStrictEqual([{"name": "Baby Legs",}, { "name": "Dr. Wong" },
+    { "name": "Tiny Rick" }, { "name": "Dr. Wong" }, { "name": "Baby Legs", }], "A-Z")
+    expect(ascendentOrder).toStrictEqual([{ "name": "Baby Legs", }, { "name": "Dr. Wong" },
     { "name": "Pickle Rick" }, { "name": "Tiny Rick" }]);
 
   });
@@ -50,9 +50,9 @@ describe('descAlphabet', () => {
 
   it('ordenar nomes de Z-A', () => {
     const descendentOrder = descAlphabeth([{ "name": "Tiny Rick" },
-    { "name": "Pickle Rick" }, { "name": "Dr. Wong" },{"name": "Baby Legs",}], "Z-A")
+    { "name": "Pickle Rick" }, { "name": "Dr. Wong" }, { "name": "Baby Legs", }], "Z-A")
     expect(descendentOrder).toStrictEqual([{ "name": "Tiny Rick" },
-    { "name": "Pickle Rick" }, { "name": "Dr. Wong" },{"name": "Baby Legs",}]);
+    { "name": "Pickle Rick" }, { "name": "Dr. Wong" }, { "name": "Baby Legs", }]);
   });
 });
 
@@ -128,7 +128,7 @@ describe('calculator', () => {
   });
 
   it('retorna 75% dos categoria Male', () => {
-    const expectedCalc = calculator (mockArray.length, 3);
+    const expectedCalc = calculator(mockArray.length, 3);
     expect(expectedCalc).toEqual(75);
   });
 });

@@ -26,7 +26,7 @@ As informações usadas são da fonte: https://rickandmortyapi.com/
 
 Para a realização do projeto, tomamos como referêcia o período de quatro semanas e ultilizamos da metodologia ágil para nos planejar. A ferramenta ultilizada para esse intuito foi o Trello.
 
-(inserir imagem do nosso board + no final no projeto)
+![Getting Started](src/img/trello.jpeg)
 
 
 ## 2. Perfil & História de Usuário
@@ -35,7 +35,6 @@ A partir dessa pesquisa já feita com fãs de Rick and Morty, escolhemos os filt
 
 Além disso, o usuário também poderá saber quantos personagens existem  na série de uma mesma espécie que selecionar.
 
-(inserir images de gráficos da pesquisa)
 
 ### Perfil de Usuário
 
@@ -66,26 +65,33 @@ Para este projeto, tínhamos que fazer primeiro um protótipo de baixa fidelidad
 
 (inserir protótipos de baixa fidelidade)
 
-Ultilizamos o Canva para fazer o protótipo de alta fidelidade, que deve demonstrar o máximo potencial de interface que gostaríamos de criar, por mais que não consigamos seguir a risca(ou não tenhamos tempo). Primeiramente, buscamos por imagens de fundo com temas do Rick and Morty e paletas de cores que se mostram presentes durante a série.
+Ultilizamos o Canva para fazer o protótipo de alta fidelidade, que deve demonstrar o máximo potencial de interface que gostaríamos de criar, por mais que não consigamos seguir a risca(ou não tenhamos tempo). Primeiramente, buscamos por imagens de fundo com temas do Rick and Morty e paletas de cores que se mostram presentes durante a série. Tivemos algumas opções de layouts pensadas, essas apenas da página de apresentação, pois queríamos montar a página principal a partir da paleta de cores escolhida na anterior.
 
-Criamos algumas opções de layouts ideais e o escolhido foi o que deixou a marca visual mais Rick and Morty possível.
+![Getting Started](src/img/primeiroprototipo.jpeg)
+![Getting Started](src/img/segundoprototipo.png)
 
-Opções de layouts:
-(inserir montagem c os outros dois)
+O escolhido foi o que deixou a marca visual mais Rick and Morty possível. Além disso, buscamos um layout simples e intuitivo para o usuário, tanto na página de introdução, quanto na principal. Dessa forma, a vizualização dos cards com personagens fica clara, e também as formas de filtragem.
 
 Layout escolhido:
-(inserir pág 1 e 2)
+
+![Getting Started](src/img/pag1html.jpeg)
+![Getting Started](src/img/pag2html.jpeg)
+
+Adaptamos a disposição dos elementos da nossa aplicação ao tamanho de diferentes telas a partir do princípio do design responsivo, e esses foram os resultados em  dispositivo mobile:
+
+![Getting Started](src/img/mobile.png)
+![Getting Started](src/img/mobile2.png)
 
 ## 4. Aprendizado
 
-O projeto Data Lovers tem como essência a manipulação de objetos e arrays, de como trazer para a tela do usuário informações de um banco de dados. Além disso, aprendemos como trabalhar com branchs (pull request, merge, atualizar main), commitar de forma padrão, a importância de traçar um perfil e história de usuário, também suas definições de pronto.
+O projeto Data Lovers é o segundo feito no bootcamp, e tivemos um verdadeiro salto exponencial em relação ao primeiro, já que novos conceitos foram apresentados e ultilizados, como o uso de media query para trazer responsividade e a criação de testes unitários pelo Jest para garantir a funcionalidade do código. Porém, o verdadeiro coração desse projeto é a manipulação de objetos e arrays, de como trazer para a tela do usuário informações de um banco de dados.
+Além disso, aprendemos como trabalhar com branchs (pull request, merge, atualizar main), commitar de forma padrão, a importância de traçar um perfil e história de usuário,e também suas definições de pronto.
 
 ## 5. Ferramentas Ultilizadas
 
 [Código]
 -Git & Github: Controle de versão, criação de branchs, commits e deploy final no Github Pages.
 -Vscode: editor de código.
--Jest: biblioteca de testes do JavaScript
 
 [Comunicação]
 -Zoom.
@@ -101,5 +107,6 @@ O projeto Data Lovers tem como essência a manipulação de objetos e arrays, de
 -JavaScript(puro).
 -HTML5.
 -CSS3.
+-Jest (testes unitários do JavaScript).
 
 ### Projeto desenvolvido por Fernanda Leandra e Isabela Gregoraci- SAP007 Laboratória 2022
