@@ -26,7 +26,7 @@ As informações usadas são da fonte: https://rickandmortyapi.com/
 
 Para a realização do projeto, tomamos como referêcia o período de quatro semanas e ultilizamos da metodologia ágil para nos planejar. A ferramenta ultilizada para esse intuito foi o Trello.
 
-![Getting Started](src/img/trello.jpeg)
+![Getting Started](src/img/trello.png)
 
 
 ## 2. Perfil & História de Usuário
@@ -72,15 +72,15 @@ Ultilizamos o Canva para fazer o protótipo de alta fidelidade, que deve demonst
 
 O escolhido foi o que deixou a marca visual mais Rick and Morty possível. Além disso, buscamos um layout simples e intuitivo para o usuário, tanto na página de introdução, quanto na principal. Dessa forma, a vizualização dos cards com personagens fica clara, e também as formas de filtragem.
 
-Layout escolhido:
+### Layout escolhido:
 
 ![Getting Started](src/img/pag1html.jpeg)
 ![Getting Started](src/img/pag2html.jpeg)
 
 Adaptamos a disposição dos elementos da nossa aplicação ao tamanho de diferentes telas a partir do princípio do design responsivo, e esses foram os resultados em  dispositivo mobile:
 
+![Getting Started](src/img/2mobile.png)
 ![Getting Started](src/img/mobile.png)
-![Getting Started](src/img/mobile2.png)
 
 ## 4. Aprendizado
 
@@ -89,17 +89,17 @@ Além disso, aprendemos como trabalhar com branchs (pull request, merge, atualiz
 
 ## 5. Ferramentas Ultilizadas
 
-[Código]
--Git & Github: Controle de versão, criação de branchs, commits e deploy final no Github Pages.
+Código:
+-Git & Github: controle de versão, criação de branchs, commits e deploy final no Github Pages.
 -Vscode: editor de código.
 
-[Comunicação]
+Comunicação:
 -Zoom.
 -Whatsapp.
 -AnyDesk.
 -Slack.
 
-[Protótipo]
+Protótipo:
 -Canva.
 
 ## 6. Linguagens Ultilizadas

@@ -125,6 +125,9 @@ width: 100%;
   font-size: 15px;
 }
 @media (min-width:769px) and (max-width:1279px) {
+  .main-header{
+    height: 30vh;
+  }
   .filter-menu{
     flex-wrap: wrap;
   }
@@ -133,6 +136,9 @@ width: 100%;
   }
   .img-header, .img2-header{
     display: none;
+  }
+  .logo{
+    width:50%;
   }
 }
 
@@ -148,7 +154,8 @@ width: 100%;
    display: none;
  }
  .logo{
-   width: 80vw;
+   width: 90%;
+   height: 70%;
  }
  .card-container {
   display: flex;

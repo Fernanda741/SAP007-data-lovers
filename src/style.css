@@ -20,7 +20,7 @@
   }
 
   .logo-pag1 {
-    width: 50vw;
+    width: 39vw;
   }
 
   .introduction{
@@ -29,12 +29,12 @@
     color: #00224e;
     border-radius: 20px;
     align-items: center;
-    height: 34vh;
+    height: 35vh;
     width: 50vw;
     font-size: 18px;
     padding: 4px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
 .btn-portal{
@@ -66,33 +66,54 @@
   }
 
   @media (min-width:769px) and (max-width:1279px){
+    .rick-morty-logo{
+      display: flex;
+      justify-content: center;
+    }
     .logo-pag1{
      margin-top:30px;
+     width: 80%;
     }
     .introduction{
       width:75vw;
+      height: 40vh;
     }
     .btn-portal{
-
+    width:25vw;
     }
+  }
+  @media (min-width:481px) and ( max-width: 768px) {
+    .logo-pag1{
+    width:100%;
+    }
+   .introduction{
+    height: 45vh;
+    width: 80vw;
+    font-size: 15px;
+   }
+   .btn-portal{
+   margin-bottom:0%;
+   width: 35vh;
+   }
   }
 
   @media ( max-width: 480px) {
     .logo-pag1{
-      width:80vw
+      width:100%;
     }
     .introduction{
-      height: 42vh;
-      width:70vw;
+      height: 50vh;
+      width:85vw;
       padding: 20px;
-      font-size:38px;
+      font-size:15px;
     }
     .btn-portal{
-      width:40vw;
-      height:5vh;
-      font-size: 32px;
+      width:50vw;
+      height:8vh;
+      font-size: 15px;
     }
     .authors{
-      display: none;
+      font-size:12px;
+      margin-top:100px;
     }
   }
