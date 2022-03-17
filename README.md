@@ -63,24 +63,25 @@ Definição de pronto 3: Ao aplicar o filtro de cada categoria escolhida, o usu�
 
 Para este projeto, tínhamos que fazer primeiro um protótipo de baixa fidelidade, mais simples e sem necessidade de usar ferramentas, apenas para esboçar uma primeira solução de interface que suprisse as necessidades do usuário.
 
-(inserir protótipos de baixa fidelidade)
+<img src="img/rascunho1.jpeg" width="300px" alt="Protótipo de Baixa Fidelidade-1">
+<img src="img/rascunho2.jpeg" width="300px" alt="Protótipo de Baixa Fidelidade-2">
 
 Ultilizamos o Canva para fazer o protótipo de alta fidelidade, que deve demonstrar o máximo potencial de interface que gostaríamos de criar, por mais que não consigamos seguir a risca(ou não tenhamos tempo). Primeiramente, buscamos por imagens de fundo com temas do Rick and Morty e paletas de cores que se mostram presentes durante a série. Tivemos algumas opções de layouts pensadas, essas apenas da página de apresentação, pois queríamos montar a página principal a partir da paleta de cores escolhida na anterior.
 
-![Getting Started](src/img/primeiroprototipo.jpeg)
-![Getting Started](src/img/segundoprototipo.png)
+<img src="img/primeiroprototipo.jpeg" width="300px" alt="Protótipo-1">
+<img src="img/segundoprototipo.png" width="300px" alt="Protótipo-2">
 
 O escolhido foi o que deixou a marca visual mais Rick and Morty possível. Além disso, buscamos um layout simples e intuitivo para o usuário, tanto na página de introdução, quanto na principal. Dessa forma, a vizualização dos cards com personagens fica clara, e também as formas de filtragem.
 
 ### Layout escolhido:
 
-![Getting Started](src/img/pag1html.jpeg)
-![Getting Started](src/img/pag2html.jpeg)
+<img src="/img/pag1html.jpeg" width="300px" alt="Protótipo Final pág-1">
+<img src="/img/pag2html.jpeg" width="300px" alt="Protótipo Final pág-2">
 
 Adaptamos a disposição dos elementos da nossa aplicação ao tamanho de diferentes telas a partir do princípio do design responsivo, e esses foram os resultados em  dispositivo mobile:
 
-![Getting Started](src/img/2mobile.png)
-![Getting Started](src/img/mobile.png)
+<img src="img/2mobile.png" width="300px" alt="Protótipo Mobile pág-1">
+<img src="img/mobile.png" width="300px" alt="Protótipo Mobile pág-2">
 
 ## 4. Aprendizado
 
@@ -110,3 +111,53 @@ Protótipo:
 -Jest (testes unitários do JavaScript).
 
 ### Projeto desenvolvido por Fernanda Leandra e Isabela Gregoraci- SAP007 Laboratória 2022
+
+<table>
+  <tr>
+      <td align="center">
+            <a href="#">
+            <img src="https://avatars.githubusercontent.com/u/92606913?v=4" width="100px" alt="Foto de Fernanda Leandra"/><br>
+            <sub>
+            <b>Fernanda Leandra</b><br>
+            </sub>
+            </a>
+      </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/90584412?v=4" width="100px;" alt="Foto de Isabela Gregoraci"/><br>
+        <sub>
+          <b>Isabela Gregoraci</b><br>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table width="400">
+      <td>
+            <a href="https://github.com/bruna-devbio/"><img src="./src/img/github.png" alt="ícone github" width="20px" height="20px">
+            <a href="https://www.linkedin.com/in/brunacalixtodevjunior/"><img src="./src/img/linkedin.png" alt="ícone linkedin" width="20px" height="20px">
+      </td>
+      <td>
+            <a href="https://github.com/caxconte/"><img src="./src/img/github.png" alt="ícone github" width="20px" height="20px">
+            <a href="https://www.linkedin.com/in/brunacalixtodevjunior/"><img src="./src/img/linkedin.png" alt="ícone linkedin" width="20px" height="20px">
+      </td>
+      <td>
+            <a href="https://github.com/leticia-aniceto/"><img src="./src/img/github.png" alt="ícone github" width="20px" height="20px">
+            <a href="https://www.linkedin.com/in/leticia-braga-aniceto/"><img src="./src/img/linkedin.png" alt="ícone linkedin" width="20px" height="20px">
+      </td>
+
+</table>
+
+
+<table width="400">
+      <td>
+            <a href="https://github.com/Fernanda741/"><img src="./src/img/github.png" alt="ícone github" width="20px" height="20px">
+            <a href="https://www.linkedin.com/in/fernanda-leandra-4b414569/"><img src="./src/img/linkedin.png" alt="ícone linkedin" width="20px" height="20px">
+      </td>
+      <td>
+            <a href="https://github.com/Gregisa/"><img src="./src/img/github.png" alt="ícone github" width="20px" height="20px">
+            <a href="https://www.linkedin.com/in/isabela-bonander-gregoraci-9424a015b/"><img src="./src/img/linkedin.png" alt="ícone linkedin" width="20px" height="20px">
+      </td>
+</table>
+
