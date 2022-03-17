@@ -9,7 +9,6 @@
 - [5. Ferramentas Ultilizadas](#5-ferramentas-ultilizadas)
 - [6. Linguagens Ultilizadas](#6-linguagens-ultilizadas)
 
-
 ## 1. Introdução ao Rickverso
 
 Paz entre mundos terráqueas(os) da dimensão C-137, este é o Rickverso de Rick and Morty!
@@ -28,13 +27,11 @@ Para a realização do projeto, tomamos como referêcia o período de quatro sem
 
 ![Getting Started](src/img/trello.png)
 
-
 ## 2. Perfil & História de Usuário
 
 A partir dessa pesquisa já feita com fãs de Rick and Morty, escolhemos os filtros que achamos mais intuitivos e claros para o usuário poder categorizar os personagens, que são: status (vivo, morto ou indefinido), gênero (feminino, masculino ou indefinido) e espécie (humano, humanoide, animal ou alienígena).
 
-Além disso, o usuário também poderá saber quantos personagens existem  na série de uma mesma espécie que selecionar.
-
+Além disso, o usuário também poderá saber quantos personagens existem na série de uma mesma espécie que selecionar.
 
 ### Perfil de Usuário
 
@@ -58,7 +55,6 @@ História 3: "Como usuário, quero saber quantidade de personagens que se encaix
 
 Definição de pronto 3: Ao aplicar o filtro de cada categoria escolhida, o usuário pode ver na página html uma mensagem printada dizendo a porcentagem de personagens que se encaixam na categoria.
 
-
 ## 3. Protótipos de Layout
 
 Para este projeto, tínhamos que fazer primeiro um protótipo de baixa fidelidade, mais simples e sem necessidade de usar ferramentas, apenas para esboçar uma primeira solução de interface que suprisse as necessidades do usuário.
@@ -78,7 +74,7 @@ O escolhido foi o que deixou a marca visual mais Rick and Morty possível. Além
 <img src="src/img/pag1html.jpeg" width="300px" alt="Protótipo Final pág-1">
 <img src="src/img/pag2html.jpeg" width="300px" alt="Protótipo Final pág-2">
 
-Adaptamos a disposição dos elementos da nossa aplicação ao tamanho de diferentes telas a partir do princípio do design responsivo, e esses foram os resultados em  dispositivo mobile:
+Adaptamos a disposição dos elementos da nossa aplicação ao tamanho de diferentes telas a partir do princípio do design responsivo, e esses foram os resultados em dispositivo mobile:
 
 <img src="src/img/2mobile.png" width="300px" alt="Protótipo Mobile pág-1">
 <img src="src/img/mobile.png" width="300px" alt="Protótipo Mobile pág-2">
@@ -114,15 +110,15 @@ Protótipo:
 
 <table>
   <tr>
-      <td align="center">
-            <a href="#">
-            <img src="https://avatars.githubusercontent.com/u/92606913?v=4" width="100px" alt="Foto de Fernanda Leandra"/><br>
-            <sub>
-            <b>Fernanda Leandra</b><br>
-            </sub>
-            </a>
-      </td>
-    <td align="center">
+    <td alig="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/92606913?v=4" width="100px" alt="Foto de Fernanda Leandra"/><br>
+        <sub>
+          <b>Fernanda Leandra</b><br>
+        </sub>
+      </a>
+    </td>
+    <td alig="center">
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/90584412?v=4" width="100px;" alt="Foto de Isabela Gregoraci"/><br>
         <sub>
@@ -132,36 +128,14 @@ Protótipo:
     </td>
   </tr>
 </table>
-
 <table width="400">
-      <td>
-            <a href="https://github.com/bruna-devbio/"><img src="./src/img/github.png" alt="ícone github" width="20px" height="20px">
-            <a href="https://www.linkedin.com/in/brunacalixtodevjunior/"><img src="./src/img/linkedin.png" alt="ícone linkedin" width="20px" height="20px">
-      </td>
-      <td>
-            <a href="https://github.com/caxconte/"><img src="./src/img/github.png" alt="ícone github" width="20px" height="20px">
-            <a href="https://www.linkedin.com/in/brunacalixtodevjunior/"><img src="./src/img/linkedin.png" alt="ícone linkedin" width="20px" height="20px">
-      </td>
-      <td>
-            <a href="https://github.com/leticia-aniceto/"><img src="./src/img/github.png" alt="ícone github" width="20px" height="20px">
-            <a href="https://www.linkedin.com/in/leticia-braga-aniceto/"><img src="./src/img/linkedin.png" alt="ícone linkedin" width="20px" height="20px">
-      </td>
-
+  <td>
+   <a href="https://github.com/Fernanda741/"><img src="src/img/github.png" alt="github" width="20px" height="20px">
+   <a href="https://www.linkedin.com/in/fernanda-leandra-4b414569/"><img src="src/img/linkedin.png" alt="linkedin" width="20px" height="20px">
+  </td>
+  <td>
+    <a href="https://github.com/Gregisa/"><img src="src/img/github.png" alt="github" width="20px" height="20px">
+    <a href="https://www.linkedin.com/in/isabela-bonander-gregoraci-9424a015b/"><img src="src/img/linkedin.png" alt="linkedin" width="20px" height="20px">
+  </td>
 </table>
-
-
-<table width="400">
-      <td>
-            <a href="https://github.com/Fernanda741/"><img src="./src/img/github.png
-            " alt="github" width="20px" height="20px">
-            <a href="https://www.linkedin.com/in/fernanda-leandra-4b414569/"><img src="./src/img/linkedin.png" alt="linkedin" width="20px" height="20px">
-      </td>
-      <td>
-            <a href="https://github.com/Gregisa/"><img src="./src/img/github.png" alt="github" width="20px" height="20px">
-            <a href="https://www.linkedin.com/in/isabela-bonander-gregoraci-9424a015b/"><img src="./src/img/linkedin.png" alt="linkedin" width="20px" height="20px">
-      </td>
-</table>
-<p align="left">
-      <a href="#voltarAoTopo">Voltar ao topo ⬆</a>
-</p>
 
