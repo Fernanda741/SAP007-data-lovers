@@ -22,22 +22,24 @@ function showInfos(cardPrint) {
 
 showInfos(cardPrint);
 
-
+const ascBtn= document.getElementById("btn-az");
+const dscBtn= document.getElementById("btn-za");
 const statusOption = document.querySelector(".status-btn");
 const speciesOption = document.querySelector(".species-btn");
 const genderOption = document.querySelector(".gender-btn");
 const searchByName = document.getElementById("name-search");
 const clearFilters = document.getElementById("btn-clear");
 
+
 function ascOrder() {
   return showInfos(ascAlphabeth(cardPrint));
 }
-document.getElementById("btn-az").addEventListener("click", ascOrder);
+ascBtn.addEventListener("click", ascOrder);
 
 function descOrder() {
   return showInfos(descAlphabeth(cardPrint));
 }
-document.getElementById("btn-za").addEventListener("click", descOrder);
+dscBtn.addEventListener("click", descOrder);
 
 function showCalculation(cardPrint) {
   const categoryResult = document.getElementById("calculation-result");
