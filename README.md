@@ -59,20 +59,20 @@ Definição de pronto 3: Ao aplicar o filtro de cada categoria escolhida, o usu�
 
 Para este projeto, tínhamos que fazer primeiro um protótipo de baixa fidelidade, mais simples e sem necessidade de usar ferramentas, apenas para esboçar uma primeira solução de interface que suprisse as necessidades do usuário.
 
-<img src="src/img/rascunho1.jpeg" width="300px" alt="Protótipo de Baixa Fidelidade-1">
-<img src="src/img/rascunho2.jpeg" width="300px" alt="Protótipo de Baixa Fidelidade-2">
+<img src="src/img/rascunho1.jpeg" width="350px" alt="Protótipo de Baixa Fidelidade-1">
+<img src="src/img/rascunho2.jpeg" width="350px" alt="Protótipo de Baixa Fidelidade-2">
 
 Ultilizamos o Canva para fazer o protótipo de alta fidelidade, que deve demonstrar o máximo potencial de interface que gostaríamos de criar, por mais que não consigamos seguir a risca(ou não tenhamos tempo). Primeiramente, buscamos por imagens de fundo com temas do Rick and Morty e paletas de cores que se mostram presentes durante a série. Tivemos algumas opções de layouts pensadas, essas apenas da página de apresentação, pois queríamos montar a página principal a partir da paleta de cores escolhida na anterior.
 
-<img src="src/img/primeiroprototipo.jpeg" width="300px" alt="Protótipo-1">
-<img src="src/img/segundoprototipo.png" width="300px" alt="Protótipo-2">
+<img src="src/img/primeiroprototipo.jpeg" width="350px" alt="Protótipo-1">
+<img src="src/img/segundoprototipo.png" width="350px" alt="Protótipo-2">
 
 O escolhido foi o que deixou a marca visual mais Rick and Morty possível. Além disso, buscamos um layout simples e intuitivo para o usuário, tanto na página de introdução, quanto na principal. Dessa forma, a vizualização dos cards com personagens fica clara, e também as formas de filtragem.
 
 ### Layout escolhido:
 
-<img src="src/img/pag1html.jpeg" width="300px" alt="Protótipo Final pág-1">
-<img src="src/img/pag2html.jpeg" width="300px" alt="Protótipo Final pág-2">
+<img src="src/img/pag1html.jpeg" width="350px" alt="Protótipo Final pág-1">
+<img src="src/img/pag2html.jpeg" width="350px" alt="Protótipo Final pág-2">
 
 Adaptamos a disposição dos elementos da nossa aplicação ao tamanho de diferentes telas a partir do princípio do design responsivo, e esses foram os resultados em dispositivo mobile:
 
@@ -128,14 +128,5 @@ Protótipo:
     </td>
   </tr>
 </table>
-<table width="400">
-  <td>
-   <a href="https://github.com/Fernanda741/"><img src="src/img/github.png" alt="github" width="20px" height="20px">
-   <a href="https://www.linkedin.com/in/fernanda-leandra-4b414569/"><img src="src/img/linkedin.png" alt="linkedin" width="20px" height="20px">
-  </td>
-  <td>
-    <a href="https://github.com/Gregisa/"><img src="src/img/github.png" alt="github" width="20px" height="20px">
-    <a href="https://www.linkedin.com/in/isabela-bonander-gregoraci-9424a015b/"><img src="src/img/linkedin.png" alt="linkedin" width="20px" height="20px">
-  </td>
-</table>
+
 
