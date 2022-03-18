@@ -114,7 +114,7 @@ Protótipo:
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/92606913?v=4" width="100px" alt="Foto de Fernanda Leandra"/><br>
         <sub>
-          <b>Fernanda Leandra</b><br>
+          <h2><a style="color:purple" href="https://github.com/Fernanda741" target="_blank">Fernanda Leandra</a></h2><br>
         </sub>
       </a>
     </td>
@@ -122,7 +122,7 @@ Protótipo:
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/90584412?v=4" width="100px;" alt="Foto de Isabela Gregoraci"/><br>
         <sub>
-          <b>Isabela Gregoraci</b><br>
+          <h2><a style="color:purple" href="https://github.com/Gregisa" target="_blank">Isabela Gregoraci</a></h2><br>
         </sub>
       </a>
     </td>
